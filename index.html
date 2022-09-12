@@ -26,7 +26,10 @@
                 <option value="img/04.jpg">Immagine 4</option>
                 <option value="img/05.jpg">Immagine 5</option>
             </select>
-            <img v-bind:src="imgAddress" alt="Immagine">
+
+            <div id="img-container">
+                <img v-bind:src="imgAddress" alt="Immagine">
+            </div>
         </div>
     </div>
 </body>
